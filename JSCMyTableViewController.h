@@ -1,5 +1,5 @@
 //
-//  JSCViewController.h
+//  JSCMyTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Joan Segarra on 01/04/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSCViewController : UIViewController
+@interface JSCMyTableViewController : UITableViewController
 
 @end
