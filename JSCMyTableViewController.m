@@ -75,7 +75,7 @@
         cell.textLabel.text = @"another seccion (1)";
     } else {
         cell.textColor = [UIColor greenColor];
-        cell.textLabel.text = @"%@, indexPath.row";
+        cell.textLabel.text = [NSString stringWithFormat:@"%i", indexPath.row];
     }
     
     return cell;
